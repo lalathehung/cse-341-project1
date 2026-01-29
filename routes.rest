@@ -1,0 +1,33 @@
+// LOCALHOST
+### Get all contacts
+GET http://localhost:3000/users
+
+### Get contact by id
+GET http://localhost:3000/users/696bbe9027d72c1168d5d3fc
+
+### Create contact
+POST http://localhost:3000/users HTTP/1.1
+content-type: application/json
+
+{
+   "firstName": "",
+    "lastName": "",
+    "email": "",
+    "favoriteColor": "",
+    "birthday": "5 Aug 2000"
+}
+
+### PUT contact
+PUT http://localhost:3000/users/696bbe9027d72c1168d5d3fc HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Rob",
+    "lastName": "MacKay",
+    "email": "mackay@taxplus.com",
+    "favoriteColor": "Blue",
+    "birthday": "1 Jan 1970"
+}
+
+### DELETE contact
+DELETE http://localhost:3000/users/697abf3583887307b691d6f7
