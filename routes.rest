@@ -3,18 +3,18 @@
 GET http://localhost:3000/users
 
 ### Get contact by id
-GET http://localhost:3000/users/696bbe9027d72c1168d5d3fc
+GET http://localhost:3000/users/697ade60ba916572dcd6ae7a
 
 ### Create contact
 POST http://localhost:3000/users HTTP/1.1
 content-type: application/json
 
 {
-   "firstName": "",
-    "lastName": "",
-    "email": "",
-    "favoriteColor": "",
-    "birthday": "5 Aug 2000"
+   "firstName": "Michael",
+    "lastName": "Kwan",
+    "email": "sigokteacher@sigoku.edu",
+    "favoriteColor": "Red",
+    "birthday": "18 Nov 1976"
 }
 
 ### PUT contact
@@ -22,11 +22,11 @@ PUT http://localhost:3000/users/696bbe9027d72c1168d5d3fc HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "Rob",
+    "firstName": "Benjamin",
     "lastName": "MacKay",
-    "email": "mackay@taxplus.com",
-    "favoriteColor": "Blue",
-    "birthday": "1 Jan 1970"
+    "email": "ben@taxplus.com",
+    "favoriteColor": "Yellow",
+    "birthday": "6 July 1995"
 }
 
 ### DELETE contact
