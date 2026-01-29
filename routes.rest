@@ -3,30 +3,30 @@
 GET http://localhost:3000/users
 
 ### Get contact by id
-GET http://localhost:3000/users/697ade60ba916572dcd6ae7a
+GET http://localhost:3000/users/697ae11b7a580cc6577a79bd
 
 ### Create contact
 POST http://localhost:3000/users HTTP/1.1
 content-type: application/json
 
 {
-   "firstName": "Michael",
-    "lastName": "Kwan",
-    "email": "sigokteacher@sigoku.edu",
-    "favoriteColor": "Red",
-    "birthday": "18 Nov 1976"
+   "firstName": "Anson",
+    "lastName": "Hui",
+    "email": "friedrice@pokdiuhospital.com",
+    "favoriteColor": "Silver",
+    "birthday": "21 Jan 2000"
 }
 
 ### PUT contact
-PUT http://localhost:3000/users/696bbe9027d72c1168d5d3fc HTTP/1.1
+PUT http://localhost:3000/users/697add12ba916572dcd6ae79 HTTP/1.1
 content-type: application/json
 
 {
-    "firstName": "Benjamin",
-    "lastName": "MacKay",
-    "email": "ben@taxplus.com",
-    "favoriteColor": "Yellow",
-    "birthday": "6 July 1995"
+    "firstName": "Ryan",
+    "lastName": "Leung",
+    "email": "bigmousemouse@sigoku.com",
+    "favoriteColor": "Grey",
+    "birthday": "3 Jan 2000"
 }
 
 ### DELETE contact
